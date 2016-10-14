@@ -14,7 +14,7 @@ import (
 	"compress/gzip"
 	"errors"
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/core/tls"
+	"github.com/masterzen/azure-sdk-for-go/core/tls"
 	"io"
 	"log"
 	"net"
