@@ -2,7 +2,7 @@ package vmDiskClient
 
 import (
 	"fmt"
-	azure "github.com/MSOpenTech/azure-sdk-for-go"
+	azure "github.com/uzresk/azure-sdk-for-go"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	azure "github.com/MSOpenTech/azure-sdk-for-go"
-	"github.com/MSOpenTech/azure-sdk-for-go/clients/locationClient"
+	azure "github.com/uzresk/azure-sdk-for-go"
+	"github.com/uzresk/azure-sdk-for-go/clients/locationClient"
 )
 
 const (

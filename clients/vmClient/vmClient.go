@@ -14,11 +14,11 @@ import (
 	"time"
 	"unicode"
 
-	azure "github.com/MSOpenTech/azure-sdk-for-go"
-	"github.com/MSOpenTech/azure-sdk-for-go/clients/hostedServiceClient"
-	"github.com/MSOpenTech/azure-sdk-for-go/clients/imageClient"
-	"github.com/MSOpenTech/azure-sdk-for-go/clients/locationClient"
-	"github.com/MSOpenTech/azure-sdk-for-go/clients/storageServiceClient"
+	azure "github.com/uzresk/azure-sdk-for-go"
+	"github.com/uzresk/azure-sdk-for-go/clients/hostedServiceClient"
+	"github.com/uzresk/azure-sdk-for-go/clients/imageClient"
+	"github.com/uzresk/azure-sdk-for-go/clients/locationClient"
+	"github.com/uzresk/azure-sdk-for-go/clients/storageServiceClient"
 )
 
 const (
@@ -240,7 +240,7 @@ func SetAzureDockerVMExtension(azureVMConfiguration *Role, dockerPort int, versi
 
 	privateConfiguration := "{}"
 
-	azureVMConfiguration, err = SetAzureVMExtension(azureVMConfiguration, "DockerExtension", "MSOpenTech.Extensions", version, "DockerExtension", "enable", publicConfiguration, privateConfiguration)
+	azureVMConfiguration, err = SetAzureVMExtension(azureVMConfiguration, "DockerExtension", "uzresk.Extensions", version, "DockerExtension", "enable", publicConfiguration, privateConfiguration)
 	return azureVMConfiguration, nil
 }
 

@@ -2,7 +2,7 @@ package vnetClient
 
 import (
 	"encoding/xml"
-	azure "github.com/MSOpenTech/azure-sdk-for-go"
+	azure "github.com/uzresk/azure-sdk-for-go"
 )
 
 const (

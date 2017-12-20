@@ -6,12 +6,12 @@ This project provides a Golang package that makes it easy to consume and manage 
 - Get Azure SDK package: 
 
 ```sh
-go get github.com/MSOpenTech/azure-sdk-for-go
+go get github.com/uzresk/azure-sdk-for-go
 ```
 - Install: 
 
 ```sh
-go install github.com/MSOpenTech/azure-sdk-for-go
+go install github.com/uzresk/azure-sdk-for-go
 ```
 
 # Usage
@@ -25,8 +25,8 @@ import (
     "fmt"
     "os"
     
-    azure "github.com/MSOpenTech/azure-sdk-for-go"
-    "github.com/MSOpenTech/azure-sdk-for-go/clients/vmClient"
+    azure "github.com/uzresk/azure-sdk-for-go"
+    "github.com/uzresk/azure-sdk-for-go/clients/vmClient"
 )
 
 func main() {
